@@ -1,0 +1,17 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito%27');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// App styles
+@import 'restaurants';
+
+body  {
+    background-image:url("/images/restaurant2.jpg");
+    background-size: cover;
+
+}

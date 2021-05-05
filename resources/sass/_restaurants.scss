@@ -1,0 +1,26 @@
+/**
+ * Article styles
+ */
+
+ article {
+	margin-bottom: 1rem;
+
+	&.single-article {
+		.excerpt {
+			font-style: normal;
+			font-weight: 400;
+		}
+	}
+
+	.actions {
+		display: flex;
+
+		> * {
+			margin-right: 1rem;
+
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+}
